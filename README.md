@@ -1,6 +1,6 @@
 # makers-game
 
-<img src="img/makersgame.jpg" alt="Mountain View" width="500">
+<img src="img/makersgame.jpg" width="400" align="center">
 
 <h2>Step 1 - Découper les pièces</h2>
 
@@ -19,6 +19,8 @@ En médium de 3mm d’épaisseur:
 -	4 x bandeaux contours de la table (médium)
 -	1 x quadrillage intérieur (x1)
 
+<img src="img/makersgame_dessus.png" width="400">
+<img src="img/makersgame_pieds.png" width="400">
 
 <h2>Step 2 - Assembler la table</h2>
 
@@ -27,6 +29,11 @@ Assembler les pieds:
 - Visser les planches de bois deux à deux avec des vis à bois (2,5 x 20mm)
 - Insérer les 4 pieds dans le plateau du dessous et visser
 <br>Attention à ne pas abimer les encoches !
+
+<img src="img/makersgame_pieds4.jpg" width="400">
+<img src="img/makersgame_pieds5.jpg" width="400">
+
+
 
 Assembler la grille:
 - Vous munir de patience !
@@ -38,6 +45,7 @@ Mettre en place le bandeau:
 - Coller le flexwood (mettre de la colle à bois sur les parties ou il y a les cales).
 - Pour rejoindre les 2 bouts de flexwood : collez un petit bout de medium 3mm permettant de les réunir et de solidifier l’ensemble.
 
+<img src="img/makersgame_rendu.png" width="400">
 
 <h2>Step 3 - Préparer et installer le ruban de LED</h2>
 
