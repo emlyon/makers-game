@@ -1,17 +1,17 @@
 # makers-game
 
-<img src="img/makersgame.jpg" alt="Mountain View" width="500">
+![Mountain View](img/makersgame.jpg)
 
-<h2>Step 1 - Découper les pièces</h2>
+## Step 1 - Découper les pièces
 
 Dans l’onglet fichiers, <b>télécharger les documents</b>.
-Et <b>découper à la laser</b> :
-<br><br>
+Et **découper à la laser** :
+
 En contre-plaqué de 10mm d’épaisseur:
 
 - pieds de la table (x4)
 - plateau du dessous (x1)
-- plateau du dessus avec pièces annexes (x1)<br>
+- plateau du dessus avec pièces annexes (x1)  
 Poncer les rebords des découpes afin d’obtenir un rendu propre.
 
 
@@ -20,13 +20,13 @@ En médium de 3mm d’épaisseur:
 -	1 x quadrillage intérieur (x1)
 
 
-<h2>Step 2 - Assembler la table</h2>
+## Step 2 - Assembler la table
 
 Assembler les pieds:
 - Nettoyer soigneusement les trous taraudés des vis.
 - Visser les planches de bois deux à deux avec des vis à bois (2,5 x 20mm)
 - Insérer les 4 pieds dans le plateau du dessous et visser
-<br>Attention à ne pas abimer les encoches !
+  Attention à ne pas abimer les encoches !
 
 Assembler la grille:
 - Vous munir de patience !
@@ -39,7 +39,7 @@ Mettre en place le bandeau:
 - Pour rejoindre les 2 bouts de flexwood : collez un petit bout de medium 3mm permettant de les réunir et de solidifier l’ensemble.
 
 
-<h2>Step 3 - Préparer et installer le ruban de LED</h2>
+## Step 3 - Préparer et installer le ruban de LED
 
 - Nous avons utilisé le ruban de leds Adafruit Neopixel (11 x 19 = 209 leds).
 - Couper votre ruban en 19 rubans de 11 leds.
@@ -54,35 +54,36 @@ Mettre en place le bandeau:
 // IMAGE BRANCHEMENT LED//
 
 
-<h2>Step 4 - Programmer la Raspberry Pi 1</h2>
+## Step 4 - Programmer la Raspberry Pi
 
-Télécharger et copier l’image sur la Raspberry Pi en utilisant Etcher.io <br>
+Télécharger et copier l’image de [Raspbian Stratch Lite](https://downloads.raspberrypi.org/raspbian_lite_latest) sur la Raspberry Pi en utilisant Etcher.io  
 Installer les jeux: Lionel HELP
 
 
-<h2>Step 5 - Installer les boutons d’arcade</h2>
+## Step 5 - Installer les boutons d’arcade
 
 // AJOUTER SCHEMA FRITZING //
 - Utiliser une plaque de prototype pour réaliser vos soudures.
 - Attention: l’Arduino Uno, la Raspberry Pi et l’alimentation seront du côté du « Player 1 ». Il faut donc une certaine longueur de fil pour les boutons d’arcade du « Player 2 ».
 - Utiliser des cables male - femelle pour les pins destinées à être connectées au Raspberry Pi.
-<br><br>
+
+
 Voici les branchements de boutton sur la Raspberry Pi:
-Player 1 - UP button: pin 23<br>
-Player 1 - DOWN button: pin 24<br>
-Player 1 - LEFT button: pin 10<br>
-Player 1 - RIGHT button: pin 9<br>
-Player 1 - RESET button: pin 11<br>
-Player 2 - UP button: pin 4<br>
-Player 2 - DOWN button: pin 17<br>
-Player 2 - LEFT button: pin 18<br>
-Player 2 - RIGHT button: pin 27<br>
+Player 1 - UP button: pin 23  
+Player 1 - DOWN button: pin 24  
+Player 1 - LEFT button: pin 10  
+Player 1 - RIGHT button: pin 9  
+Player 1 - RESET button: pin 11  
+Player 2 - UP button: pin 4  
+Player 2 - DOWN button: pin 17  
+Player 2 - LEFT button: pin 18  
+Player 2 - RIGHT button: pin 27  
 Player 2 - RESET button: pin 22
 
  // IMAGE PINOUT//
 
 
-<h2>Step 6 - Finaliser la table</h2>
+## Step 6 - Finaliser la table
 
 - A l’aide d’une perceuse réaliser un trou de 10mm de diamètre au niveau de l’alimentation dans le bandeaux de contour de la table.
 - Y insérer le connecteur pour l’alimentation 5V.
