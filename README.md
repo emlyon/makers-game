@@ -74,14 +74,17 @@ En **PMMA**:
 - Nous avons utilisé le ruban de leds **Adafruit Neopixel** (11 x 19 = 209 leds).
 - Couper votre ruban en 19 rubans de 11 leds.
 - Souder les extrémités de vos rubans de façon à réaliser un « serpent » (cf. photo): GND - GND /  DIN - DOUT / 5V - 5V. *Attention: la longueur de vos fils doit être suffisante pour pouvoir disposer les leds comme sur la photo.*
-- Une fois les soudures réalisées, les fixer avec un point de pistolet à colle.
 - Placer le ruban LED sur la table. Faire en sorte que chaque LED soit à peu près au milieu de chaque case de la grille. Les câbles doivent pouvoir passer entre les encoches supérieures des pieds.
 - Connecter votre ruban de led à l'Arduino Uno (pin 6)
 - Tester les soudures de votre ruban à l’aide de l’Arduino Uno. Pour cela, nous utilisons l’exemple « Simple » de la [librairie « Adafruit Neopixel »](https://github.com/adafruit/Adafruit_NeoPixel). Vérifier que toutes vos led s'allument correctement.
-- Une fois testé, disposer parfaitement votre ruban de leds et enfoncer la grille dans le plateau du dessous de la table.
+- Une fois les soudures testées, les fixer avec un point de pistolet à colle.
+- Disposer parfaitement votre ruban de leds et enfoncer la grille dans le plateau du dessous de la table.
 - Téléverser le programme disponible sur Github: « arcadeTable_arduino » // https://github.com/emlyon/arcadeTable
 
-// IMAGE BRANCHEMENT LED//
+![Mountain View](img/makersgame_leds1.jpg)
+![Mountain View](img/makersgame_leds2.jpg)
+![Mountain View](img/makersgame_leds3.jpg)
+![Mountain View](img/makersgame_leds4.jpg)
 
 
 ## Step 4 - Programmer la Raspberry Pi
