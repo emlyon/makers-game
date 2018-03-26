@@ -20,6 +20,7 @@ Vous aurez aussi besoin d'avoir accès à:
 - 1 perceuse-visseuse
 - 1 pistollet à colle  
 
+
 ## Step 1 - Découper les pièces
 
 Dans l’onglet fichiers, **télécharger les documents**.
@@ -40,7 +41,8 @@ En **PMMA**:
 - vitre de la table (x1)
 
 <img src="img/makersgame_dessus.png" width="400">
-<img src="img/makersgame_pieds.png" width="400">
+<img src="img/makersgame_pieds1.png" width="400">
+
 
 ## Step 2 - Assembler la table
 
@@ -50,8 +52,8 @@ En **PMMA**:
 - Insérer les 4 pieds dans le plateau du dessous et visser.  
 *Attention à ne pas abimer les encoches !*  
 
-<img src="img/makersgame_pieds4.jpg" width="400">
-<img src="img/makersgame_pieds5.jpg" width="400">
+<img src="img/makersgame_pieds2.jpg" width="400">
+<img src="img/makersgame_pieds3.jpg" width="400">
 
 **Assembler la grille**:
 - Vous munir de patience !
@@ -63,7 +65,6 @@ En **PMMA**:
 - Coller le flexwood (mettre de la colle à bois sur les parties ou il y a les cales).
 - Pour rejoindre les 2 bouts de flexwood : collez un petit bout de medium 3mm permettant de les réunir et de solidifier l’ensemble.
 
-<img src="img/makersgame_rendu.png" width="400">
 
 ## Step 3 - Préparer et installer le ruban de LED
 
@@ -126,4 +127,7 @@ Player 2 - RESET button: pin 22
 - A l’aide d’une perceuse réaliser un trou de 10mm de diamètre au niveau de l’alimentation dans le bandeaux de contour de la table.
 - Y insérer le connecteur pour l’alimentation 5V.
 - Placer l'électronique et les câbles afin de pouvoir fermer la table.
-- Positionner le dessus de la table correctement et le fixer à l'aide des vis à bois
+- Positionner le dessus de la table correctement et le fixer à l'aide des vis à bois.
+- Mettre en place la vitre en PMMA au dessus de la grille. Celle-ci doit être maintenue par le dessus de la table.  
+
+#### Vous êtes arrivé à bout, bien joué !
