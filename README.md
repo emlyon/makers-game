@@ -75,7 +75,7 @@ En **PMMA**:
 - Une fois les soudures réalisées, les fixer avec un point de pistolet à colle.
 - Placer le ruban LED sur la table. Faire en sorte que chaque LED soit à peu près au milieu de chaque case de la grille. Les câbles doivent pouvoir passer entre les encoches supérieures des pieds.
 - Connecter votre ruban de led à l'Arduino Uno (pin 6)
-- Tester les soudures de votre ruban à l’aide de l’Arduino Uno. Pour cela, nous utilisons l’exemple « Simple » de la <a href="https://github.com/adafruit/Adafruit_NeoPixel">librairie « Adafruit Neopixel »</a>. Vérifier que toutes vos led s'allument correctement.
+- Tester les soudures de votre ruban à l’aide de l’Arduino Uno. Pour cela, nous utilisons l’exemple « Simple » de la [librairie « Adafruit Neopixel »](https://github.com/adafruit/Adafruit_NeoPixel). Vérifier que toutes vos led s'allument correctement.
 - Une fois testé, disposer parfaitement votre ruban de leds et enfoncer la grille dans le plateau du dessous de la table.
 - Téléverser le programme disponible sur Github: « arcadeTable_arduino » // https://github.com/emlyon/arcadeTable
 
