@@ -56,8 +56,28 @@ Mettre en place le bandeau:
 
 ## Step 4 - Programmer la Raspberry Pi
 
-Télécharger et copier l’image de [Raspbian Stratch Lite](https://downloads.raspberrypi.org/raspbian_lite_latest) sur la Raspberry Pi en utilisant Etcher.io  
-Installer les jeux: Lionel HELP
+Télécharger et copier l’image de [Raspbian Stretch Lite](https://downloads.raspberrypi.org/raspbian_lite_latest) sur votre Raspberry Pi en utilisant [Etcher.io](https://etcher.io/).  
+Vous pouvez suivre le guide [installing operating system images](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) pour plus de détails.  
+Démarrez votre Raspberry Pi avec un clavier, un câble ethernet relié à votre box internet et un écran branchés.  
+( identifiant par défaut: pi / mot de passe: raspberry )  
+Une fois identifié, vous pouvez taper: `sudo raspi-config` pour configurer la langue du clavier ( en français: http://www.tropfacile.net/doku.php/raspberry-pi/comment-passer-votre-raspberry-en-francais )  
+Installez openFrameworks en suivant le guide suivant: [Getting your Raspberry Pi ready for openFrameworks](http://openframeworks.cc/setup/raspberrypi/raspberry-pi-getting-started/)  
+Une fois openFrameworks installé et testé, vous pouvez maintenant télécharger le code des jeux et le compiler:
+```
+cd /home/pi/openFrameworks/apps/myApps/
+git clone https://github.com/emlyon/arcadeTable.git
+make
+```
+Ne lancez pas le programme maintenant: si l'arduino n'est pas branchée, le programme ne peut pas fonctionner.  
+Pour que le jeu se lance automatiquement au démarrage, éditez le fichier `rc.local`:  
+```
+sudo nano /etc/rc.local
+```
+Et ajouter avant la ligne `exit`:
+```
+su pi -c 'cd /home/pi/openFrameworks/apps/myApps/arcadeTable && make run'
+```
+Faites `Ctrl+x` pour quitter, puis `y` pour sauvegarder.
 
 
 ## Step 5 - Installer les boutons d’arcade
