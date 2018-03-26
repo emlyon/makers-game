@@ -1,6 +1,7 @@
 # makers-game
 
-<img src="img/makersgame.jpg" width="400" align="center">
+![Mountain View](img/makersgame.jpg)
+
 
 ## Matériel
 
@@ -83,7 +84,7 @@ En **PMMA**:
 
 ## Step 4 - Programmer la Raspberry Pi 1
 
-Télécharger et copier l’image sur la Raspberry Pi en utilisant Etcher.io <br>
+Télécharger et copier l’image de [Raspbian Stratch Lite](https://downloads.raspberrypi.org/raspbian_lite_latest) sur la Raspberry Pi en utilisant Etcher.io  
 Installer les jeux: Lionel HELP
 
 
