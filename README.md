@@ -10,7 +10,7 @@
 - 1 planche de PMMA coulé (35x400mm)
 - 1 carte Arduino Uno
 - 1 carte epoxy
-- 1 Raspberry Pi 1
+- 1 Raspberry Pi (fonctionne avec la pi 1 Modèle B )
 - 4m de ruban de LED
 - papier de verre
 - 30 vis à bois (2,5 x 20mm)   
@@ -58,7 +58,7 @@ En **PMMA**:
 
 **Assembler la grille**:
 - Vous munir de patience !
-- Les lattes verticales et horizontales doivent être bien totalement enfoncées les unes dans les autres.
+- Les lattes verticales et horizontales doivent être totalement enfoncées les unes dans les autres.
 
 **Mettre en place le bandeau**:
 - Trouver le milieu de la largeur et notez-le sur la cale en bois.
@@ -82,8 +82,8 @@ En **PMMA**:
 // IMAGE BRANCHEMENT LED//
 
 
-## Step 4 - Programmer la Raspberry Pi 1
-
+## Step 4 - Programmer la Raspberry Pi
+**Installer le système de la Raspberry Pi**:
 Télécharger et copier l’image de [Raspbian Stretch Lite](https://downloads.raspberrypi.org/raspbian_lite_latest) sur votre Raspberry Pi en utilisant [Etcher.io](https://etcher.io/).  
 Vous pouvez suivre le guide [installing operating system images](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) pour plus de détails.  
 Démarrez votre Raspberry Pi avec un clavier, un câble ethernet relié à votre box internet et un écran branchés.  
