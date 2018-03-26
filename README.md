@@ -13,7 +13,9 @@
 - 1 Raspberry Pi (fonctionne avec la pi 1 Modèle B )
 - 4m de ruban de LED
 - papier de verre
-- 30 vis à bois (2,5 x 20mm)   
+- 30 vis à bois (2,5 x 20mm)  
+- 2 condensateurs
+- 10 resistances de 10kΩ
 
 Vous aurez aussi besoin d'avoir accès à:
 - 1 découpe laser
@@ -83,10 +85,11 @@ En **PMMA**:
 
 
 ## Step 4 - Programmer la Raspberry Pi
-**Installer le système de la Raspberry Pi**:
+
+**Installer le système de la Raspberry Pi**:  
 Télécharger et copier l’image de [Raspbian Stretch Lite](https://downloads.raspberrypi.org/raspbian_lite_latest) sur votre Raspberry Pi en utilisant [Etcher.io](https://etcher.io/).  
 Vous pouvez suivre le guide [installing operating system images](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) pour plus de détails.  
-Démarrez votre Raspberry Pi avec un clavier, un câble ethernet relié à votre box internet et un écran branchés.  
+Démarrer votre Raspberry Pi avec un clavier, un câble ethernet relié à votre box internet et un écran branchés.  
 ( identifiant par défaut: pi / mot de passe: raspberry )  
 Une fois identifié, vous pouvez taper: `sudo raspi-config` pour configurer la langue du clavier ( en français: http://www.tropfacile.net/doku.php/raspberry-pi/comment-passer-votre-raspberry-en-francais )  
 Installez openFrameworks en suivant le guide suivant: [Getting your Raspberry Pi ready for openFrameworks](http://openframeworks.cc/setup/raspberrypi/raspberry-pi-getting-started/)  
@@ -119,12 +122,17 @@ Retirer l'écrou.
 Couper l'anneau en deux points afin d'en retirer à peu près 1/3.  
 Placer le bouton dans le trou prévu pour le revoir et le fixer en serrant l'anneau par dessous.
 
-// AJOUTER SCHEMA FRITZING //
-
 **Réaliser le montage électronique**:
 - Utiliser une plaque de prototype pour réaliser vos soudures.
 - Attention: l’Arduino Uno, la Raspberry Pi et l’alimentation seront du côté du « Player 1 ». Il faut donc une certaine longueur de fil pour les boutons d’arcade du « Player 2 ».
-- Utiliser des cables male - femelle pour les pins destinées à être connectées au Raspberry Pi.  
+- Utiliser des cables male - femelle pour les pins destinées à être connectées au Raspberry Pi.
+- Utiliser des cables male - male pour les pins destinées à être connectées sur l'Arduino Uno.
+
+![Mountain View](img/makersgame_fritzing.jpg)  
+
+**Ne pas oublier** de:  
+Connecter l'Arduino Uno à la Raspberry Pi à l'aide d'un cable USB-USB.  
+Alimenter la Raspberry pi à l'aide d'un cable micro-USB: brancher la micro-USB à la Raspbian et dénuder l'autre côté afin de connecter les fils au condensateur.
 
 Voici les **branchements des 10 boutons sur la Raspberry Pi**:  
 
@@ -140,7 +148,7 @@ Player 2 - LEFT button: pin 18
 Player 2 - RIGHT button: pin 27  
 Player 2 - RESET button: pin 22
 
- // IMAGE PINOUT//
+![Mountain View](http://opensourceforu.com/wp-content/uploads/2017/06/Figure-1-Raspberry-Pi-pinout-diagram.jpg)
 
 
 ## Step 6 - Finaliser la table
