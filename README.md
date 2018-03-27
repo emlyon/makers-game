@@ -1,6 +1,6 @@
 # makers-game
 
-![Mountain View](img/makersgame.jpg)
+![makers' game](img/makersgame.jpg)
 
 
 ## Matériel
@@ -43,8 +43,8 @@ En **médium de 3mm d’épaisseur**:
 En **PMMA**:
 - vitre de la table (x1)
 
-<img src="img/makersgame_dessus.png" width="400">
-<img src="img/makersgame_pieds1.png" width="400">
+![laser dessus](img/makersgame_dessus.png)
+![laser pieds](img/makersgame_pieds1.png)
 
 
 ## Step 2 - Assembler la table
@@ -55,8 +55,8 @@ En **PMMA**:
 - Insérer les 4 pieds dans le plateau du dessous et visser.  
 *Attention à ne pas abimer les encoches !*  
 
-<img src="img/makersgame_pieds2.jpg" width="400">
-<img src="img/makersgame_pieds3.jpg" width="400">
+![Pieds 1](img/makersgame_pieds2.jpg)
+![Pieds 2](img/makersgame_pieds3.jpg)
 
 **Assembler la grille**:
 - Vous munir de patience !
@@ -70,11 +70,11 @@ En **PMMA**:
 - Coller le flexwood (mettre de la colle à bois sur les parties ou il y a les cales).
 - Pour rejoindre les 2 bouts de flexwood : collez un petit bout de medium 3mm permettant de les réunir et de solidifier l’ensemble.
 
-![Mountain View](img/makersgame_bordure1.jpg)
-![Mountain View](img/makersgame_bordure2.jpg)
-![Mountain View](img/makersgame_bordure3.jpg)
-![Mountain View](img/makersgame_bordure4.jpg)
-![Mountain View](img/makersgame_bordure5.jpg)
+![Bandeau 1](img/makersgame_bordure1.jpg)
+![Bandeau 2](img/makersgame_bordure2.jpg)
+![Bandeau 3](img/makersgame_bordure3.jpg)
+![Bandeau 4](img/makersgame_bordure4.jpg)
+![Bandeau 5](img/makersgame_bordure5.jpg)
 
 ## Step 3 - Préparer et installer le ruban de LED
 
@@ -88,10 +88,10 @@ En **PMMA**:
 - Disposer parfaitement votre ruban de leds et enfoncer la grille dans le plateau du dessous de la table.
 - Téléverser le programme disponible sur Github: « arcadeTable_arduino » // https://github.com/emlyon/arcadeTable
 
-![Mountain View](img/makersgame_leds1.jpg)
-![Mountain View](img/makersgame_leds2.jpg)
-![Mountain View](img/makersgame_leds3.jpg)
-![Mountain View](img/makersgame_leds4.jpg)
+![Ruban led 1](img/makersgame_leds1.jpg)
+![Ruban led 2](img/makersgame_leds2.jpg)
+![Ruban led 3](img/makersgame_leds3.jpg)
+![Ruban led 4](img/makersgame_leds4.jpg)
 
 
 ## Step 4 - Programmer la Raspberry Pi
@@ -132,8 +132,8 @@ Retirer l'écrou.
 Couper l'anneau en deux points afin d'en retirer à peu près 1/3.  
 Placer le bouton dans le trou prévu pour le revoir et le fixer en serrant l'anneau par dessous.
 
-![Mountain View](img/makersgame_boutons1.jpg)
-![Mountain View](img/makersgame_boutons2.jpg)
+![Boutons 1](img/makersgame_boutons1.jpg)
+![Boutons 2](img/makersgame_boutons2.jpg)
 
 **Réaliser le montage électronique**:
 - Utiliser une plaque de prototype pour réaliser vos soudures.
@@ -141,7 +141,7 @@ Placer le bouton dans le trou prévu pour le revoir et le fixer en serrant l'ann
 - Utiliser des cables male - femelle pour les pins destinées à être connectées au Raspberry Pi.
 - Utiliser des cables male - male pour les pins destinées à être connectées sur l'Arduino Uno.
 
-![Mountain View](img/makersgame_fritzing.jpg)  
+![Fritzing](img/makersgame_fritzing.jpg)  
 
 **Ne pas oublier** de:  
 Connecter l'Arduino Uno à la Raspberry Pi à l'aide d'un cable USB-USB.  
@@ -161,9 +161,9 @@ Player 2 - LEFT button: pin 18
 Player 2 - RIGHT button: pin 27  
 Player 2 - RESET button: pin 22
 
-![Mountain View](http://opensourceforu.com/wp-content/uploads/2017/06/Figure-1-Raspberry-Pi-pinout-diagram.jpg)
-![Mountain View](img/makersgame_electronique1.jpg)
-![Mountain View](img/makersgame_electronique2.jpg)
+![Raspberry pinout](img/makersgame_pinout.jpg)
+![Electronique 1](img/makersgame_electronique1.jpg)
+![Electronique 2](img/makersgame_electronique2.jpg)
 
 ## Step 6 - Finaliser la table
 
@@ -173,9 +173,9 @@ Player 2 - RESET button: pin 22
 - Positionner le dessus de la table correctement et le fixer à l'aide des vis à bois.
 - Mettre en place la vitre en PMMA au dessus de la grille. Celle-ci doit être maintenue par le dessus de la table.  
 
-![Mountain View](img/makersgame_perceuse1.jpg)  
+![Perceuse](img/makersgame_perceuse1.jpg)  
 
 
 #### Vous êtes arrivé à bout, bien joué !
 
-![Mountain View](img/makersgame_rendu.png)
+![makers' game rendu](img/makersgame_rendu.png)
