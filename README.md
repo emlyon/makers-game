@@ -22,6 +22,7 @@ Vous aurez aussi besoin d'avoir accès à:
 - 1 fer à souder
 - 1 perceuse-visseuse
 - 1 pistollet à colle  
+- 1 tube de colle à bois
 
 
 ## Step 1 - Découper les pièces
