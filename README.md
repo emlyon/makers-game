@@ -63,11 +63,18 @@ En **PMMA**:
 - Les lattes verticales et horizontales doivent être totalement enfoncées les unes dans les autres.
 
 **Mettre en place le bandeau**:
-- Trouver le milieu de la largeur et notez-le sur la cale en bois.
+- Emboiter les 6 cales de CP 10mm aux emplacements sur le plateau du dessous et les fixer avec des vis à bois.
+- Une fois les cales vissées, placer les 4 pièces découpées en amont pour les angles arrondis de la table.
+- Trouver le milieu de la largeur de chaque bandeau et le marquer sur la cale en bois.
 - Placer le flexwood à partir du milieu de la cale en bois.
 - Coller le flexwood (mettre de la colle à bois sur les parties ou il y a les cales).
 - Pour rejoindre les 2 bouts de flexwood : collez un petit bout de medium 3mm permettant de les réunir et de solidifier l’ensemble.
 
+![Mountain View](img/makersgame_bordure1.jpg)
+![Mountain View](img/makersgame_bordure2.jpg)
+![Mountain View](img/makersgame_bordure3.jpg)
+![Mountain View](img/makersgame_bordure4.jpg)
+![Mountain View](img/makersgame_bordure5.jpg)
 
 ## Step 3 - Préparer et installer le ruban de LED
 
@@ -125,6 +132,9 @@ Retirer l'écrou.
 Couper l'anneau en deux points afin d'en retirer à peu près 1/3.  
 Placer le bouton dans le trou prévu pour le revoir et le fixer en serrant l'anneau par dessous.
 
+![Mountain View](img/makersgame_boutons1.jpg)
+![Mountain View](img/makersgame_boutons2.jpg)
+
 **Réaliser le montage électronique**:
 - Utiliser une plaque de prototype pour réaliser vos soudures.
 - Attention: l’Arduino Uno, la Raspberry Pi et l’alimentation seront du côté du « Player 1 ». Il faut donc une certaine longueur de fil pour les boutons d’arcade du « Player 2 ».
@@ -135,7 +145,7 @@ Placer le bouton dans le trou prévu pour le revoir et le fixer en serrant l'ann
 
 **Ne pas oublier** de:  
 Connecter l'Arduino Uno à la Raspberry Pi à l'aide d'un cable USB-USB.  
-Alimenter la Raspberry pi à l'aide d'un cable micro-USB: brancher la micro-USB à la Raspbian et dénuder l'autre côté afin de connecter les fils au condensateur.
+Alimenter la Raspberry pi à l'aide d'un cable micro-USB: brancher la micro-USB à la Raspberry pi et dénuder l'autre côté afin de connecter les fils au condensateur.
 
 Voici les **branchements des 10 boutons sur la Raspberry Pi**:  
 
@@ -152,7 +162,8 @@ Player 2 - RIGHT button: pin 27
 Player 2 - RESET button: pin 22
 
 ![Mountain View](http://opensourceforu.com/wp-content/uploads/2017/06/Figure-1-Raspberry-Pi-pinout-diagram.jpg)
-
+![Mountain View](img/makersgame_electronique1.jpg)
+![Mountain View](img/makersgame_electronique2.jpg)
 
 ## Step 6 - Finaliser la table
 
@@ -162,4 +173,9 @@ Player 2 - RESET button: pin 22
 - Positionner le dessus de la table correctement et le fixer à l'aide des vis à bois.
 - Mettre en place la vitre en PMMA au dessus de la grille. Celle-ci doit être maintenue par le dessus de la table.  
 
+![Mountain View](img/makersgame_perceuse1.jpg)  
+
+
 #### Vous êtes arrivé à bout, bien joué !
+
+![Mountain View](img/makersgame_rendu.png)
