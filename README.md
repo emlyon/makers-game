@@ -160,9 +160,10 @@ Player 2 - UP button: pin 4
 Player 2 - DOWN button: pin 17  
 Player 2 - LEFT button: pin 18  
 Player 2 - RIGHT button: pin 27  
-Player 2 - RESET button: pin 22
+Player 2 - RESET button: pin 22  
 
-![Raspberry pinout](img/makersgame_pinout.jpg)
+**[Raspberry Pi pinout](http://opensourceforu.com/wp-content/uploads/2017/06/Figure-1-Raspberry-Pi-pinout-diagram.jpg)**  
+
 ![Electronique 1](img/makersgame_electronique1.jpg)
 ![Electronique 2](img/makersgame_electronique2.jpg)
 
