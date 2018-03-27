@@ -44,8 +44,8 @@ En **médium de 3mm d’épaisseur**:
 En **PMMA**:
 - vitre de la table (x1)
 
-![laser dessus](img/makersgame_dessus.png)
-![laser pieds](img/makersgame_pieds1.png)
+![laser dessus](img/makersgame_dessus.jpg)
+![laser pieds](img/makersgame_pieds1.jpg)
 
 
 ## Step 2 - Assembler la table
