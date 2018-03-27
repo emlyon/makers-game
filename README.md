@@ -180,4 +180,4 @@ Player 2 - RESET button: pin 22
 
 #### Vous êtes arrivé à bout, bien joué !
 
-![makers' game rendu](img/makersgame_rendu.png)
+![makers' game rendu](img/makersgame_rendu.jpg)
