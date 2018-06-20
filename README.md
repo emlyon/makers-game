@@ -8,14 +8,15 @@
 - 3 planches de contre-plaqué (1000x600x10mm)
 - 1 planche de médium (1000x600x3mm)
 - 1 planche de PMMA coulé (35x400mm)
-- 1 carte Arduino Uno
-- 1 carte epoxy
-- 1 Raspberry Pi (fonctionne avec la pi 1 Modèle B )
-- 4m de ruban de LED
+- 1 [carte Arduino Uno](https://www.adafruit.com/product/50)
+- 1 [carte epoxy](https://www.adafruit.com/product/571)
+- 1 [Raspberry Pi (Pi 1 Modèle B)](https://www.adafruit.com/product/1914)
+- 1 [cable USB A/MicroB](https://www.adafruit.com/product/592)
+- 4m de [ruban de LED](https://www.adafruit.com/product/2562)
 - papier de verre
 - 30 vis à bois (2,5 x 20mm)  
-- 2 condensateurs
-- 10 resistances de 10kΩ
+- 2 [condensateurs 10uF](https://www.adafruit.com/product/2195)
+- 10 [resistances de 10kΩ](https://www.adafruit.com/product/2784)
 
 Vous aurez aussi besoin d'avoir accès à:
 - 1 découpe laser
