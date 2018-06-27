@@ -108,7 +108,7 @@ Installez openFrameworks en suivant le guide suivant: [Getting your Raspberry Pi
 Une fois openFrameworks installé et testé, vous pouvez maintenant télécharger le code des jeux et le compiler:
 ```
 cd /home/pi/openFrameworks/apps/myApps/
-git clone https://github.com/emlyon/arcadeTable.git
+git clone https://github.com/emlyon/makers-game-code.git
 make
 ```
 Ne lancez pas le programme maintenant: si l'arduino n'est pas branchée, le programme ne peut pas fonctionner.  
@@ -118,7 +118,7 @@ sudo nano /etc/rc.local
 ```
 Et ajouter avant la ligne `exit`:
 ```
-su pi -c 'cd /home/pi/openFrameworks/apps/myApps/arcadeTable && make run'
+su pi -c 'cd /home/pi/openFrameworks/apps/myApps/makers-game-code && make run'
 ```
 Faites `Ctrl+x` pour quitter, puis `y` pour sauvegarder.
 
