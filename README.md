@@ -8,23 +8,24 @@
 - 3 planches de contre-plaqué (1000x600x10mm)
 - 1 planche de médium (1000x600x3mm)
 - 1 planche de PMMA coulé (35x400mm)
-- 1 [carte Arduino Uno](https://www.adafruit.com/product/50 target="_blank")
-- 1 [carte epoxy](https://www.adafruit.com/product/571 target="_blank")
-- 1 [Raspberry Pi (Pi 1 Modèle B)](https://www.adafruit.com/product/1914 target="_blank")
-- 1 [cable USB A/MicroB](https://www.adafruit.com/product/592 target="_blank")
-- 7m de [ruban de LED](https://www.adafruit.com/product/2562 target="_blank")
+- 1 [carte Arduino Uno](https://www.adafruit.com/product/50)
+- 1 [carte epoxy](https://www.adafruit.com/product/571)
+- 1 [Raspberry Pi (Pi 1 Modèle B)](https://www.adafruit.com/product/1914)
+- 1 [cable USB A/MicroB](https://www.adafruit.com/product/592)
+- 7m de [ruban de LED](https://www.adafruit.com/product/2562)
 - papier de verre
 - 30 vis à bois (2,5 x 20mm)  
-- 2 [condensateurs 10uF](https://www.adafruit.com/product/2195 target="_blank")
-- 10 [resistances de 10kΩ](https://www.adafruit.com/product/2784 target="_blank")
-- 1 [alimentation 5V 10A et un adaptateur femelle] (https://www.ebay.fr/itm/5V-12V-24V-48V-AC-to-DC-Power-Adapter-Transformer-30W-240W-CHARGER-LED-CCTV/162653971894?hash=item25deeea5b6:m:mVEXSW1e3TfrPGsbUDG6PcA:rk:1:pf:0 target="_blank")
+- 2 [condensateurs 10uF](https://www.adafruit.com/product/2195)
+- 10 [resistances de 10kΩ](https://www.adafruit.com/product/2784)
+- 1 [alimentation 5V 10A et un adaptateur femelle] (https://www.ebay.fr/itm/5V-12V-24V-48V-AC-to-DC-Power-Adapter-Transformer-30W-240W-CHARGER-LED-CCTV/162653971894?hash=item25deeea5b6:m:mVEXSW1e3TfrPGsbUDG6PcA:rk:1:pf:0)
 
 Vous aurez aussi besoin d'avoir accès à:
 - 1 découpe laser
 - 1 fer à souder
 - 1 perceuse-visseuse
 - 1 pistollet à colle  
-- 1 tube de colle à bois
+- 1 tube de colle à bois  
+- TEST
 
 
 ## Step 1 - Découper les pièces
