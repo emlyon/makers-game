@@ -12,11 +12,12 @@
 - 1 [carte epoxy](https://www.adafruit.com/product/571)
 - 1 [Raspberry Pi (Pi 1 Modèle B)](https://www.adafruit.com/product/1914)
 - 1 [cable USB A/MicroB](https://www.adafruit.com/product/592)
-- 4m de [ruban de LED](https://www.adafruit.com/product/2562)
+- 7m de [ruban de LED](https://www.adafruit.com/product/2562)
 - papier de verre
 - 30 vis à bois (2,5 x 20mm)  
 - 2 [condensateurs 10uF](https://www.adafruit.com/product/2195)
 - 10 [resistances de 10kΩ](https://www.adafruit.com/product/2784)
+- 1 [alimentation 5V 10A et un adaptateur femelle] (https://www.ebay.fr/itm/5V-12V-24V-48V-AC-to-DC-Power-Adapter-Transformer-30W-240W-CHARGER-LED-CCTV/162653971894?hash=item25deeea5b6:m:mVEXSW1e3TfrPGsbUDG6PcA:rk:1:pf:0)
 
 Vous aurez aussi besoin d'avoir accès à:
 - 1 découpe laser
