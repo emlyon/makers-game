@@ -8,25 +8,27 @@
 - 3 planches de contre-plaqué (1000x600x10mm)
 - 1 planche de médium (1000x600x3mm)
 - 1 planche de PMMA coulé (35x400mm)
-- 1 [carte Arduino Uno](https://www.adafruit.com/product/50)
-- 1 [carte epoxy](https://www.adafruit.com/product/571)
-- 1 [Raspberry Pi (Pi 1 Modèle B)](https://www.adafruit.com/product/1914)
-- 1 [cable USB A/MicroB](https://www.adafruit.com/product/592)
-- 7m de [ruban de LED](https://www.adafruit.com/product/2562)
-- papier de verre
-- 30 vis à bois (2,5 x 20mm)  
-- 2 [condensateurs 10uF](https://www.adafruit.com/product/2195)
-- 10 [resistances de 10kΩ](https://www.adafruit.com/product/2784)
-- 1 [alimentation 5V 10A et un adaptateur femelle] (https://www.ebay.fr/itm/5V-12V-24V-48V-AC-to-DC-Power-Adapter-Transformer-30W-240W-CHARGER-LED-CCTV/162653971894?hash=item25deeea5b6:m:mVEXSW1e3TfrPGsbUDG6PcA:rk:1:pf:0)
+- 1 [carte Arduino Uno](https://www.amazon.fr/Elegoo-ATmega328P-ATMEGA16U2-Controller-Microcontr%C3%B4leur/dp/B01N91PVIS/ref=sr_1_3?ie=UTF8&qid=1546870406&sr=8-3&keywords=arduino+uno)
+- 1 [carte epoxy](https://www.amazon.fr/RainBabe-Double-Spray-Universelle-Exp%C3%A9rimentale/dp/B07KG66915/ref=sr_1_2?s=hi&ie=UTF8&qid=1546870677&sr=1-2&keywords=carte%2Bepoxy&th=1)
+- 1 [Raspberry Pi (Pi 1 Modèle B)](https://www.amazon.fr/Raspberry-Pi-Carte-M%C3%A8re-Model/dp/B01CD5VC92/ref=sr_1_3?ie=UTF8&qid=1546870736&sr=8-3&keywords=raspberry+pi+3)
+- 1 [cable USB A/MicroB](https://www.amazon.fr/C%C3%A2ble-2-0-M%C3%A2le-couleur-gris/dp/B00O2BKHJM/ref=sr_1_5?ie=UTF8&qid=1546872286&sr=8-5&keywords=cable+usb+ab) **(Normalement présent avec la carte Arduino)**
+- 7m de [ruban de LED](https://www.amazon.fr/gp/product/B01HLWW9VC/ref=oh_aui_detailpage_o08_s00?ie=UTF8&psc=1)       **(Attention, Vous aurez besoin de 7m donc 2 rouleaux de 5m)**
+- papier de verre **(Disponible au Makers' lab)**
+- 10 vis à bois (2,5 x 20mm) **(Disponible au Makers' lab)**
+- 2 [condensateurs 10uF](https://www.amazon.fr/Condensateur-chimique-radial-10uF-5x12mm/dp/B074CY3YVL/ref=pd_sbs_60_1?_encoding=UTF8&pd_rd_i=B074CY3YVL&pd_rd_r=c44c0817-1288-11e9-9b0f-01dc7c5858cd&pd_rd_w=x3iHt&pd_rd_wg=HhaR7&pf_rd_p=5d361e0c-9e85-4b01-8261-3ff932bec9c8&pf_rd_r=ZM36A88VESV4N7ASMRZT&psc=1&refRID=ZM36A88VESV4N7ASMRZT)
+- 10 [resistances de 10kΩ](https://www.amazon.fr/resistor-film-carbone-resistances-axiales/dp/B01FSDLV1K/ref=sr_1_5?ie=UTF8&qid=1546871577&sr=8-5&keywords=r%C3%A9sistance+10k+ohm)
+- 1 [alimentation 5V 10A](https://www.amazon.fr/COLM-Adaptateur-Secteur-100-240V-transformateur/dp/B07M5ZXRPG/ref=sr_1_2?ie=UTF8&qid=1546872597&sr=8-2&keywords=power+supply+5v+10a)
+- 1 [adaptateur femelle](https://www.amazon.fr/Connecteur-broches-alimentation-polaris%C3%A9-Adaptateur/dp/B0754KK8V3/ref=sr_1_5?ie=UTF8&qid=1546872955&sr=8-5&keywords=adaptateur+DC+bornier)
+- 10 [boutons arcade](https://www.amazon.fr/gp/product/B01N5DVINY/ref=oh_aui_detailpage_o09_s00?ie=UTF8&psc=1)
 
 Vous aurez aussi besoin d'avoir accès à:
 - 1 découpe laser
-- 1 fer à souder
+- 1 fer à souder et un nécessaire de soudure
 - 1 perceuse-visseuse
 - 1 pistollet à colle  
 - 1 tube de colle à bois  
 
-## Attention - Il y a deux versions dans le dossier
+## Disclamer : Work in Progress
 
 
 ## Step 1 - Découper les pièces
