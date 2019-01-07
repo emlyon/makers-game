@@ -8,21 +8,24 @@
 - 3 planches de contre-plaqué (1000x600x10mm)
 - 1 planche de médium (1000x600x3mm)
 - 1 planche de PMMA coulé (35x400mm)
-- 1 carte Arduino Uno
-- 1 carte epoxy
-- 1 Raspberry Pi (fonctionne avec la pi 1 Modèle B )
-- 4m de ruban de LED
+- 1 [carte Arduino Uno](https://www.adafruit.com/product/50)
+- 1 [carte epoxy](https://www.adafruit.com/product/571)
+- 1 [Raspberry Pi (Pi 1 Modèle B)](https://www.adafruit.com/product/1914)
+- 1 [cable USB A/MicroB](https://www.adafruit.com/product/592)
+- 7m de [ruban de LED](https://www.adafruit.com/product/2562)
 - papier de verre
 - 30 vis à bois (2,5 x 20mm)  
-- 2 condensateurs
-- 10 resistances de 10kΩ
+- 2 [condensateurs 10uF](https://www.adafruit.com/product/2195)
+- 10 [resistances de 10kΩ](https://www.adafruit.com/product/2784)
+- 1 [alimentation 5V 10A et un adaptateur femelle] (https://www.ebay.fr/itm/5V-12V-24V-48V-AC-to-DC-Power-Adapter-Transformer-30W-240W-CHARGER-LED-CCTV/162653971894?hash=item25deeea5b6:m:mVEXSW1e3TfrPGsbUDG6PcA:rk:1:pf:0)
 
 Vous aurez aussi besoin d'avoir accès à:
 - 1 découpe laser
 - 1 fer à souder
 - 1 perceuse-visseuse
 - 1 pistollet à colle  
-- 1 tube de colle à bois
+- 1 tube de colle à bois  
+- TEST
 
 
 ## Step 1 - Découper les pièces
@@ -107,7 +110,7 @@ Installez openFrameworks en suivant le guide suivant: [Getting your Raspberry Pi
 Une fois openFrameworks installé et testé, vous pouvez maintenant télécharger le code des jeux et le compiler:
 ```
 cd /home/pi/openFrameworks/apps/myApps/
-git clone https://github.com/emlyon/arcadeTable.git
+git clone https://github.com/emlyon/makers-game-code.git
 make
 ```
 Ne lancez pas le programme maintenant: si l'arduino n'est pas branchée, le programme ne peut pas fonctionner.  
@@ -117,7 +120,7 @@ sudo nano /etc/rc.local
 ```
 Et ajouter avant la ligne `exit`:
 ```
-su pi -c 'cd /home/pi/openFrameworks/apps/myApps/arcadeTable && make run'
+su pi -c 'cd /home/pi/openFrameworks/apps/myApps/makers-game-code && make run'
 ```
 Faites `Ctrl+x` pour quitter, puis `y` pour sauvegarder.
 
@@ -180,4 +183,4 @@ Player 2 - RESET button: pin 22
 
 #### Vous êtes arrivé à bout, bien joué !
 
-![makers' game rendu](img/makersgame_rendu.jpg)
+![makers' game rendu](img/makersgame_rendu.png)
