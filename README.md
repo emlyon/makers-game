@@ -12,6 +12,7 @@
 - 1 [carte epoxy](https://www.amazon.fr/RainBabe-Double-Spray-Universelle-Exp%C3%A9rimentale/dp/B07KG66915/ref=sr_1_2?s=hi&ie=UTF8&qid=1546870677&sr=1-2&keywords=carte%2Bepoxy&th=1)
 - 1 [Raspberry Pi (Pi 1 Modèle B)](https://www.amazon.fr/Raspberry-Pi-Carte-M%C3%A8re-Model/dp/B01CD5VC92/ref=sr_1_3?ie=UTF8&qid=1546870736&sr=8-3&keywords=raspberry+pi+3)
 - 1 [carte SD](https://www.amazon.fr/SanDisk-SDSQUAR-016G-GN6MA-M%C3%A9moire-MicroSDHC-Nouvelle/dp/B073K14CVB/ref=sr_1_12?s=electronics&ie=UTF8&qid=1546874053&sr=1-12&keywords=carte+micro+sd)
+- 1 [cable micro USB](https://www.amazon.fr/Samsung-ECB-DU4AWE-C%C3%A2ble-charge-Blanc/dp/B00BCJVMPK/ref=sr_1_24?s=electronics&rps=1&ie=UTF8&qid=1546877205&sr=1-24&keywords=cable+usb+micro+usb&refinements=p_76%3A437879031)
 - 1 [cable USB A/MicroB](https://www.amazon.fr/C%C3%A2ble-2-0-M%C3%A2le-couleur-gris/dp/B00O2BKHJM/ref=sr_1_5?ie=UTF8&qid=1546872286&sr=8-5&keywords=cable+usb+ab) **(Normalement présent avec la carte Arduino)**
 - 7m de [ruban de LED](https://www.amazon.fr/gp/product/B01HLWW9VC/ref=oh_aui_detailpage_o08_s00?ie=UTF8&psc=1)       **(Attention, Vous aurez besoin de 7m donc 2 rouleaux de 5m)**
 - papier de verre **(Disponible au Makers' lab)**
@@ -88,7 +89,7 @@ En **PMMA**:
 ## Step 3 - Préparer et installer le ruban de LED
 
 - Nous avons utilisé le ruban de leds **Adafruit Neopixel** (11 x 19 = 209 leds).
-- Couper votre ruban en 19 rubans de 11 leds.
+- Couper votre ruban en 11 rubans de 19 leds.
 - Souder les extrémités de vos rubans de façon à réaliser un « serpent » (cf. photo): GND - GND /  DIN - DOUT / 5V - 5V. *Attention: la longueur de vos fils doit être suffisante pour pouvoir disposer les leds comme sur la photo.*
 - Placer le ruban LED sur la table. Faire en sorte que chaque LED soit à peu près au milieu de chaque case de la grille. Les câbles doivent pouvoir passer entre les encoches supérieures des pieds.
 - Connecter votre ruban de led à l'Arduino Uno (pin 6)
@@ -104,6 +105,9 @@ En **PMMA**:
 
 
 ## Step 4 - Programmer la Raspberry Pi
+#### A partir d'ici, deux solutions s'offrent à vous :
+- Télécharger et copier sur la microSD l'image finale de la table. [ici](#code)
+- Prendre le temps de modifier le code existant pour mieux comprendre son fonctionnement.
 
 **Installer le système de la Raspberry Pi**:  
 Télécharger et copier l’image de [Raspbian Stretch Lite](https://downloads.raspberrypi.org/raspbian_lite_latest) sur votre Raspberry Pi en utilisant [Etcher.io](https://etcher.io/).  
@@ -185,6 +189,7 @@ Player 2 - RESET button: pin 22
 
 ![Perceuse](img/makersgame_perceuse1.jpg)  
 
+<a id="code"></a>
 
 #### Vous êtes arrivé à bout, bien joué !
 
