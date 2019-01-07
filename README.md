@@ -11,6 +11,7 @@
 - 1 [carte Arduino Uno](https://www.amazon.fr/Elegoo-ATmega328P-ATMEGA16U2-Controller-Microcontr%C3%B4leur/dp/B01N91PVIS/ref=sr_1_3?ie=UTF8&qid=1546870406&sr=8-3&keywords=arduino+uno)
 - 1 [carte epoxy](https://www.amazon.fr/RainBabe-Double-Spray-Universelle-Exp%C3%A9rimentale/dp/B07KG66915/ref=sr_1_2?s=hi&ie=UTF8&qid=1546870677&sr=1-2&keywords=carte%2Bepoxy&th=1)
 - 1 [Raspberry Pi (Pi 1 Modèle B)](https://www.amazon.fr/Raspberry-Pi-Carte-M%C3%A8re-Model/dp/B01CD5VC92/ref=sr_1_3?ie=UTF8&qid=1546870736&sr=8-3&keywords=raspberry+pi+3)
+- 1 [carte SD](https://www.amazon.fr/SanDisk-SDSQUAR-016G-GN6MA-M%C3%A9moire-MicroSDHC-Nouvelle/dp/B073K14CVB/ref=sr_1_12?s=electronics&ie=UTF8&qid=1546874053&sr=1-12&keywords=carte+micro+sd)
 - 1 [cable USB A/MicroB](https://www.amazon.fr/C%C3%A2ble-2-0-M%C3%A2le-couleur-gris/dp/B00O2BKHJM/ref=sr_1_5?ie=UTF8&qid=1546872286&sr=8-5&keywords=cable+usb+ab) **(Normalement présent avec la carte Arduino)**
 - 7m de [ruban de LED](https://www.amazon.fr/gp/product/B01HLWW9VC/ref=oh_aui_detailpage_o08_s00?ie=UTF8&psc=1)       **(Attention, Vous aurez besoin de 7m donc 2 rouleaux de 5m)**
 - papier de verre **(Disponible au Makers' lab)**
@@ -26,7 +27,7 @@ Vous aurez aussi besoin d'avoir accès à:
 - 1 fer à souder et un nécessaire de soudure
 - 1 perceuse-visseuse
 - 1 pistollet à colle  
-- 1 tube de colle à bois  
+- 1 tube de colle à bois
 
 ## Disclamer : Work in Progress
 
@@ -39,8 +40,9 @@ Et **découper à la laser** :
 En **contre-plaqué de 10mm d’épaisseur**:
 - pieds de la table (x4)
 - plateau du dessous (x1)
-- plateau du dessus avec pièces annexes (x1)  
-Poncer les rebords des découpes afin d’obtenir un rendu propre.  
+- plateau du dessus avec pièces annexes (x1) **(Si vous souhaitez personnaliser votre table, c'est ce fichier qui sera visible)**
+
+- Poncer les rebords des découpes afin d’obtenir un rendu propre.  
 
 
 En **médium de 3mm d’épaisseur**:
