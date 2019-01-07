@@ -133,6 +133,11 @@ su pi -c 'cd /home/pi/openFrameworks/apps/myApps/makers-game-code && make run'
 ```
 Faites `Ctrl+x` pour quitter, puis `y` pour sauvegarder.
 
+<a id="code"></a>
+
+**Si vous avez chosit la facilité :**
+
+Flasher cette [image](https://github.com/emlyon/makers-game-code/tree/master/image_raspberry_finale) grâce au logiciel Etcher et insérer la microSD dans la Raspberry Pi.
 
 ## Step 5 - Installer les boutons d’arcade
 
@@ -188,8 +193,6 @@ Player 2 - RESET button: pin 22
 - Mettre en place la vitre en PMMA au dessus de la grille. Celle-ci doit être maintenue par le dessus de la table.  
 
 ![Perceuse](img/makersgame_perceuse1.jpg)  
-
-<a id="code"></a>
 
 #### Vous êtes arrivé à bout, bien joué !
 
