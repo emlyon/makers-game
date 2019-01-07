@@ -25,7 +25,8 @@ Vous aurez aussi besoin d'avoir accès à:
 - 1 perceuse-visseuse
 - 1 pistollet à colle  
 - 1 tube de colle à bois  
-- TEST
+
+## Attention - Il y a deux versions dans le dossier
 
 
 ## Step 1 - Découper les pièces
