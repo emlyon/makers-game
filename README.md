@@ -106,7 +106,7 @@ En **PMMA**:
 
 ## Step 4 - Programmer la Raspberry Pi
 #### A partir d'ici, deux solutions s'offrent à vous :
-- Télécharger et copier sur la microSD l'image finale de la table. [ici](#code)
+- Télécharger et copier sur la microSD l'image finale de la table. [ici](https://github.com/emlyon/makers-game-code/tree/master/image_raspberry_finale)
 - Prendre le temps de modifier le code existant pour mieux comprendre son fonctionnement.
 
 **Installer le système de la Raspberry Pi**:  
@@ -133,11 +133,7 @@ su pi -c 'cd /home/pi/openFrameworks/apps/myApps/makers-game-code && make run'
 ```
 Faites `Ctrl+x` pour quitter, puis `y` pour sauvegarder.
 
-<a id="code"></a>
 
-**Si vous avez chosit la facilité :**
-
-Flasher cette [image](https://github.com/emlyon/makers-game-code/tree/master/image_raspberry_finale) grâce au logiciel Etcher et insérer la microSD dans la Raspberry Pi.
 
 ## Step 5 - Installer les boutons d’arcade
 
