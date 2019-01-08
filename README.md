@@ -142,13 +142,13 @@ Flasher cette [image](https://github.com/emlyon/makers-game-code/tree/master/ima
 ## Step 5 - Installer les boutons d’arcade
 
 **Préparer les boutons**:
+
+Commencer par insérer les boutons sur la plaque de CP du dessus.
+
+Retourner la plaque pour pouvoir souder les cables sur les boutons :
 - Souder des fils électriques sur les pins des boutons:  
-10 fils de 100cm 'pour les 5 boutons du "Player 2"   
-10 de 25 cm (pour les 5 boutons du "Player 1"
--  Fixer les boutons sur le dessus de la table. Pour cela:  
-Retirer l'écrou.  
-Couper l'anneau en deux points afin d'en retirer à peu près 1/3.  
-Placer le bouton dans le trou prévu pour le revoir et le fixer en serrant l'anneau par dessous.
+5 fils de 100cm 'pour les 5 boutons du "Player 2"   
+5 de 25 cm (pour les 5 boutons du "Player 1"
 
 ![Boutons 1](img/makersgame_boutons1.jpg)
 ![Boutons 2](img/makersgame_boutons2.jpg)
