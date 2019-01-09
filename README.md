@@ -28,7 +28,7 @@ Vous aurez aussi besoin d'avoir accès à:
 - 1 découpe laser
 - 1 fer à souder et un nécessaire de soudure
 - 1 perceuse-visseuse
-- 1 pistollet à colle  
+- 1 pistolet à colle  
 - 1 tube de colle à bois
 
 
@@ -97,7 +97,7 @@ En **PMMA**:
 
 - Connecter votre ruban de led à l'Arduino Uno (pin 6)
 
-- Tester les soudures de votre ruban à l’aide de l’Arduino Uno. Pour cela, nous utilisons l’exemple « Simple » de la [librairie « Adafruit Neopixel »](https://github.com/adafruit/Adafruit_NeoPixel). Vérifier que toutes vos led s'allument correctement.
+- Tester les soudures de votre ruban à l’aide de l’Arduino Uno. Pour cela, nous utilisons l’exemple « Simple » de la [librairie « Adafruit Neopixel »](https://github.com/adafruit/Adafruit_NeoPixel). Vérifier que toutes vos leds s'allument correctement.
 
 - Une fois les soudures testées, les fixer avec un point de pistolet à colle.
 
@@ -107,14 +107,13 @@ En **PMMA**:
 ![Ruban led 1](img/Serpentin.jpg)
 ![Ruban led 2](img/Cablage_ruban.jpg)
 ![Ruban led 3](img/Cablage_rubans_2.jpg)
-![Ruban led 4](img/makersgame_leds4.jpg)
-![Ruban led 5](img/Assemblage_fini.jpg)
+![Ruban led 4](img/Assemblage_fini.jpg)
 
 
 ## Step 4 - Programmer la Raspberry Pi
 ### A partir d'ici, deux solutions s'offrent à vous :
 - Télécharger et copier sur la microSD l'image finale de la table. [ici](https://github.com/emlyon/makers-game-code/tree/master/image_raspberry_finale)
-- Prendre le temps de modifier le code existant pour mieux comprendre son fonctionnement.
+- Prendre le temps de paramétrer la Raspberry pour mieux comprendre son fonctionnement.
 
 ## Disclamer : Work in Progress
 
@@ -126,12 +125,25 @@ Démarrer votre Raspberry Pi avec un clavier, un câble ethernet relié à votre
 
 Une fois identifié, vous pouvez taper: `sudo raspi-config` pour configurer la langue du clavier ( en français: http://www.tropfacile.net/doku.php/raspberry-pi/comment-passer-votre-raspberry-en-francais )  
 Installez openFrameworks en suivant le guide suivant: [Getting your Raspberry Pi ready for openFrameworks](http://openframeworks.cc/setup/raspberrypi/raspberry-pi-getting-started/)  
-Une fois openFrameworks installé et testé, vous pouvez maintenant télécharger le code des jeux et le compiler:
+Une fois openFrameworks installé et testé, vous pouvez maintenant installer git sur votre pi. Pour ce faire :
+```
+cd
+sudo apt update
+sudo apt install git
+```
+Vérifier que vous avez la bonne version :
+
+```
+git --version
+```
+
+Il faut maintenant télécharger le code des jeux :
 ```
 cd /home/pi/openFrameworks/apps/myApps/
 git clone https://github.com/emlyon/makers-game-code.git
-make
 ```
+
+
 Ne lancez pas le programme maintenant: si l'arduino n'est pas branchée, le programme ne peut pas fonctionner.  
 Pour que le jeu se lance automatiquement au démarrage, éditez le fichier `rc.local`:  
 ```
@@ -145,11 +157,11 @@ Faites `Ctrl+x` pour quitter, puis `y` pour sauvegarder.
 
 
 
-## Step 5 - L'Electronique
+## Step 5 - L'Électronique
 
 ### Prendre le temps du repérage :
 
-Commencer à vous demander où vont être positionner tout les éléments de votre table afin de prévoir votre longueur de cable au plus juste. N'hésitez pas à noter ces repères au marqueur comme sur la photo :
+Commencer à vous demander où vont être positionner tous les éléments de votre table afin de prévoir votre longueur de câble au plus juste. N'hésitez pas à noter ces repères au marqueur comme sur la photo :
 
 ![Photo_reperage](img/Repérage.jpg)
 
@@ -159,15 +171,15 @@ Commencer à vous demander où vont être positionner tout les éléments de vot
 
 Commencer par insérer les boutons sur la plaque de CP du dessus.
 
-Retourner la plaque pour pouvoir souder les cables sur les boutons :
+Retourner la plaque pour pouvoir souder les câbles sur les boutons :
 
 ![Plaque_retournée](img/début_soudures.jpg)
 
-- Souder des fils électriques rouges sur les pins des bouton pour relier tout les +5V comme sur la photo de manière à n'avoir qu'un seul câble partant vers la carte Epoxy.
+- Souder des fils électriques rouges sur les pins des bouton pour relier tous les +5V comme sur la photo de manière à n'avoir qu'un seul câble partant vers la carte Epoxy.
 
 ![soudures_boutons_5v](img/Soudures_5V.jpg)
 
-- Souder des fils noirs sur tout les pins de boutons restants, ceux ci vont jusqu'à la carte epoxy, prévoyez la longueur de cable en conséquence.
+- Souder des fils noirs sur tous les pins de boutons restants, ceux ci vont jusqu'à la carte epoxy, prévoyez la longueur de cable en conséquence.
 
 ![soudures_boutons_GND](img/Cablage_GND_boutons.jpg)
 
@@ -175,8 +187,8 @@ Retourner la plaque pour pouvoir souder les cables sur les boutons :
 ### Réaliser le montage de la Breadboard époxy :
 
 - Attention: l’Arduino Uno, la Raspberry Pi et l’alimentation seront du côté du « Player 1 ». Il faut donc une certaine longueur de fil pour les boutons d’arcade du « Player 2 ».
-- Utiliser des cables male - femelle pour les pins destinés à être connectées au Raspberry Pi.
-- Utiliser des cables male - male pour les pins destinés à être connectées sur l'Arduino Uno.
+- Utiliser des câbles male - femelle pour les pins destinés à être connectées au Raspberry Pi.
+- Utiliser des câbles male - male pour les pins destinés à être connectées sur l'Arduino Uno.
 
 ![Fritzing](img/makersgame_fritzing.jpg)  
 
@@ -202,7 +214,7 @@ Player 2 - RESET button: GPIO 22
 
 ![Raspberry Pi pinout](img/Raspberry-GPIO.jpg)
 
-Repérer bien vos boutons en fonction de la couleur du fil infos pour être sur de connecter le bon bouton au bon GPIO.
+Repérer bien vos boutons en fonction de la couleur du fil infos pour être sûr de connecter le bon bouton au bon GPIO.
 
 ![GPIO](img/GPIO.jpg)
 
@@ -217,7 +229,7 @@ Repérer bien vos boutons en fonction de la couleur du fil infos pour être sur 
 - Y insérer le connecteur pour l’alimentation 5V.
 - Placer l'électronique et les câbles afin de pouvoir fermer la table.
 - Positionner le dessus de la table correctement et le fixer à l'aide des vis à bois.
-- Mettre en place la vitre en PMMA au dessus de la grille. Celle-ci doit être maintenue par le dessus de la table.  
+- Mettre en place la vitre en PMMA au-dessus de la grille. Celle-ci doit être maintenue par le dessus de la table.  
 
 ![Perceuse](img/makersgame_perceuse1.jpg)  
 
