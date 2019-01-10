@@ -118,9 +118,7 @@ En **PMMA**:
 - Télécharger et flasher sur la microSD l'[image finale](mettre le lien !) de la table avec [Etcher.io](https://etcher.io/).
 - Prendre le temps de paramétrer la Raspberry pour mieux comprendre son fonctionnement ou modifier son comportement.
 
-## Disclamer : Work in Progress
-
-**Installer le système de la Raspberry Pi**:  
+## Installer le système de la Raspberry Pi:  
 Télécharger et copier l’image de [Raspbian Stretch Lite](https://downloads.raspberrypi.org/raspbian_lite_latest) sur votre Raspberry Pi en utilisant [Etcher.io](https://etcher.io/).  
 Vous pouvez suivre le guide [installing operating system images](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) pour plus de détails.  
 Démarrer votre Raspberry Pi avec un clavier, un câble ethernet relié à votre box internet et un écran branchés.  
@@ -237,11 +235,11 @@ Repérer bien vos boutons en fonction de la couleur du fil infos pour être sûr
 
 ![test_final](img/test_final.jpg)
 
-- A l’aide d’une perceuse réaliser un trou de 10mm de diamètre au niveau de l’alimentation dans le bandeaux de contour de la table.
+- A l’aide d’une perceuse réaliser un trou de 10mm de diamètre au niveau de l’alimentation dans le bandeaux de contour de la table ou en desous pour encore plus de transparence.
 - Y insérer le connecteur pour l’alimentation 5V.
 - Placer l'électronique et les câbles afin de pouvoir fermer la table.
 - Positionner le dessus de la table correctement et le fixer à l'aide des vis à bois.
-- Mettre en place la vitre en PMMA au-dessus de la grille. Celle-ci doit être maintenue par le dessus de la table.  
+- Mettre en place la vitre en PMMA au-dessus de la grille. Celle-ci doit être maintenue par la trame de l'écran.
 
 ![Perceuse](img/makersgame_perceuse1.jpg)  
 
