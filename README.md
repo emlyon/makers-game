@@ -173,7 +173,7 @@ Enfin, redémarrer votre Raspberry grâce à la commande :
 
 Commencer à vous demander où vont être positionner tous les éléments de votre table afin de prévoir votre longueur de câble au plus juste. N'hésitez pas à noter ces repères au marqueur comme sur la photo :
 
-![Photo_reperage](img/Repérage.jpg)
+![Photo_reperage](img/Reperage.jpg)
 
 **Plus il y a de travail en amont, moins il y en a par la suite.**
 
@@ -183,7 +183,7 @@ Commencer par insérer les boutons sur la plaque de CP du dessus.
 
 Retourner la plaque pour pouvoir souder les câbles sur les boutons :
 
-![Plaque_retournée](img/début_soudures.jpg)
+![Plaque_retournée](img/debut_soudures.jpg)
 
 - Souder des fils électriques rouges sur les pins des bouton pour relier tous les +5V comme sur la photo de manière à n'avoir qu'un seul câble partant vers la carte Epoxy.
 
