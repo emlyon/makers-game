@@ -10,8 +10,8 @@
 - 1 planche de PMMA coulé (35x400mm)
 - 1 [carte Arduino Uno](https://www.amazon.fr/Elegoo-ATmega328P-ATMEGA16U2-Controller-Microcontr%C3%B4leur/dp/B01N91PVIS/ref=sr_1_3?ie=UTF8&qid=1546870406&sr=8-3&keywords=arduino+uno)
 - 1 [Breadboard epoxy](https://www.amazon.fr/Adafruit-Perma-Proto-Half-sized-Breadboard-PCB/dp/B00SK8QR8S/ref=sr_1_25?ie=UTF8&qid=1546954746&sr=8-25&keywords=adafruit)
-- 1 [Raspberry Pi (Pi 1 Modèle B)](https://www.amazon.fr/Raspberry-Pi-Carte-M%C3%A8re-Model/dp/B01CD5VC92/ref=sr_1_3?ie=UTF8&qid=1546870736&sr=8-3&keywords=raspberry+pi+3)
-- 1 [carte SD 16Go](https://www.amazon.fr/SanDisk-SDSQUAR-016G-GN6MA-M%C3%A9moire-MicroSDHC-Nouvelle/dp/B073K14CVB/ref=sr_1_12?s=electronics&ie=UTF8&qid=1546874053&sr=1-12&keywords=carte+micro+sd)
+- 1 [Raspberry Pi](https://www.amazon.fr/Raspberry-Pi-Carte-M%C3%A8re-Model/dp/B01CD5VC92/ref=sr_1_3?ie=UTF8&qid=1546870736&sr=8-3&keywords=raspberry+pi+3)
+- 1 [carte micro SD 8Go ou plus](https://www.amazon.fr/Kingston-Carte-Micro-Classe-Adaptateur/dp/B001CQT0X4/ref=sr_1_1?ie=UTF8&qid=1547134978&sr=8-1&keywords=carte+micro+sd+8go)
 - 1 [cable micro USB](https://www.amazon.fr/Samsung-ECB-DU4AWE-C%C3%A2ble-charge-Blanc/dp/B00BCJVMPK/ref=sr_1_24?s=electronics&rps=1&ie=UTF8&qid=1546877205&sr=1-24&keywords=cable+usb+micro+usb&refinements=p_76%3A437879031)
 - 1 [cable USB A/MicroB](https://www.amazon.fr/C%C3%A2ble-2-0-M%C3%A2le-couleur-gris/dp/B00O2BKHJM/ref=sr_1_5?ie=UTF8&qid=1546872286&sr=8-5&keywords=cable+usb+ab) **(Normalement présent avec la carte Arduino)**
 - 7m de [ruban de LED](https://www.amazon.fr/gp/product/B01HLWW9VC/ref=oh_aui_detailpage_o08_s00?ie=UTF8&psc=1)       **(Attention, Vous aurez besoin de 7m donc 2 rouleaux de 5m)**
@@ -93,7 +93,15 @@ En **PMMA**:
 
 - Souder les extrémités de vos rubans de façon à réaliser un « serpent » (cf. photo): GND - GND /  DIN - DOUT / 5V - 5V. *Attention: la longueur de vos fils doit être suffisante pour pouvoir disposer les leds comme sur la photo.*
 
+**Attention à bien souder les fils correctement : Les 5V/5V, DI/DO et GND/GND. Utiliser du câble de différentes couleurs vous donnera des repères plus efficaces.**
+
 - Placer le ruban LED sur la table. Faire en sorte que chaque LED soit à peu près au milieu de chaque case de la grille. Les câbles doivent pouvoir passer entre les encoches supérieures des pieds.
+
+![Ruban led 1](img/Serpentin.jpg)
+![Ruban led 2](img/Cablage_ruban.jpg)
+![Ruban led 3](img/Cablage_rubans_2.jpg)
+![Ruban led 4](img/Assemblage_fini.jpg)
+
 
 - Connecter votre ruban de led à l'Arduino Uno (pin 6)
 
@@ -104,16 +112,11 @@ En **PMMA**:
 - Disposer parfaitement votre ruban de leds et enfoncer la grille dans le plateau du dessous de la table.
 - Téléverser le programme disponible sur Github: [arcadeTable_arduino](https://github.com/emlyon/arcadeTable)
 
-![Ruban led 1](img/Serpentin.jpg)
-![Ruban led 2](img/Cablage_ruban.jpg)
-![Ruban led 3](img/Cablage_rubans_2.jpg)
-![Ruban led 4](img/Assemblage_fini.jpg)
-
 
 ## Step 4 - Programmer la Raspberry Pi
 ### A partir d'ici, deux solutions s'offrent à vous :
-- Télécharger et copier sur la microSD l'image finale de la table. [ici](https://github.com/emlyon/makers-game-code/tree/master/image_raspberry_finale)
-- Prendre le temps de paramétrer la Raspberry pour mieux comprendre son fonctionnement.
+- Télécharger et flasher sur la microSD l'[image finale](mettre le lien !) de la table avec [Etcher.io](https://etcher.io/).
+- Prendre le temps de paramétrer la Raspberry pour mieux comprendre son fonctionnement ou modifier son comportement.
 
 ## Disclamer : Work in Progress
 
@@ -136,13 +139,21 @@ Vérifier que vous avez la bonne version :
 ```
 git --version
 ```
-
+Il faut maintenant télécharger ofxGPIO (important pour la gestion des boutons)
+```
+cd openFrameworks/addons
+git clone https://github.com/kashimAstro/ofxGPIO.git
+```
 Il faut maintenant télécharger le code des jeux :
 ```
 cd /home/pi/openFrameworks/apps/myApps/
 git clone https://github.com/emlyon/makers-game-code.git
 ```
-
+Une fois téléchargé, il faut compiler le programme, pour ce faire entrer la commande :
+```
+cd makers-game-code
+make
+```
 
 Ne lancez pas le programme maintenant: si l'arduino n'est pas branchée, le programme ne peut pas fonctionner.  
 Pour que le jeu se lance automatiquement au démarrage, éditez le fichier `rc.local`:  
@@ -153,9 +164,10 @@ Et ajouter avant la ligne `exit`:
 ```
 su pi -c 'cd /home/pi/openFrameworks/apps/myApps/makers-game-code && make run'
 ```
-Faites `Ctrl+x` pour quitter, puis `y` pour sauvegarder.
+Faites `Ctrl+x` pour quitter, puis `o` pour sauvegarder.
 
-
+Enfin, redémarrer votre Raspberry grâce à la commande :
+`sudo reboot`
 
 ## Step 5 - L'Électronique
 
