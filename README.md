@@ -16,7 +16,7 @@
 - 1 [cable USB A/MicroB](https://www.amazon.fr/C%C3%A2ble-2-0-M%C3%A2le-couleur-gris/dp/B00O2BKHJM/ref=sr_1_5?ie=UTF8&qid=1546872286&sr=8-5&keywords=cable+usb+ab) **(Normalement présent avec la carte Arduino)**
 - 7m de [ruban de LED](https://www.amazon.fr/gp/product/B01HLWW9VC/ref=oh_aui_detailpage_o08_s00?ie=UTF8&psc=1)       **(Attention, Vous aurez besoin de 7m donc 2 rouleaux de 5m)**
 - [papier de verre](https://www.amazon.fr/Wolfcraft-1741000-Rouleau-Auto-agrippant-Corindon/dp/B001CBZPJM/ref=sr_1_13?s=hi&ie=UTF8&qid=1547042105&sr=1-13&keywords=papier+de+verre) **(Disponible au Makers' lab)**
-- 10 [vis à bois (2,5 x 20mm)](https://www.amazon.fr/Fischer-653020-Power-Fast-frais%C3%A9e-galvanis%C3%A9e/dp/B0070MD33W/ref=sr_1_1?ie=UTF8&qid=1547042054&sr=8-1&keywords=vis+%C3%A0+bois+%282%2C5+x+20mm%29) **(Disponible au Makers' lab)**
+- 16 [vis à bois (2,5 x 20mm)](https://www.amazon.fr/Fischer-653020-Power-Fast-frais%C3%A9e-galvanis%C3%A9e/dp/B0070MD33W/ref=sr_1_1?ie=UTF8&qid=1547042054&sr=8-1&keywords=vis+%C3%A0+bois+%282%2C5+x+20mm%29) **(Disponible au Makers' lab)**
 - [Fils de prototypage](https://www.amazon.fr/Ganvol-Assortiment-Multicolore-Prototypage-Raspberry/dp/B076ZM34TM/ref=sr_1_1?ie=UTF8&qid=1547021001&sr=8-1&keywords=fils+prototypage) **(Disponible au Makers' lab)**
 - 2 [condensateurs 10uF](https://www.amazon.fr/Condensateur-chimique-radial-10uF-5x12mm/dp/B074CY3YVL/ref=pd_sbs_60_1?_encoding=UTF8&pd_rd_i=B074CY3YVL&pd_rd_r=c44c0817-1288-11e9-9b0f-01dc7c5858cd&pd_rd_w=x3iHt&pd_rd_wg=HhaR7&pf_rd_p=5d361e0c-9e85-4b01-8261-3ff932bec9c8&pf_rd_r=ZM36A88VESV4N7ASMRZT&psc=1&refRID=ZM36A88VESV4N7ASMRZT)
 - 10 [resistances de 10kΩ](https://www.amazon.fr/resistor-film-carbone-resistances-axiales/dp/B01FSDLV1K/ref=sr_1_5?ie=UTF8&qid=1546871577&sr=8-5&keywords=r%C3%A9sistance+10k+ohm)
@@ -34,7 +34,7 @@ Vous aurez aussi besoin d'avoir accès à:
 
 ## Step 1 - Découper les pièces
 
-[télécharger les documents](https://github.com/emlyon/makers-game/tree/master/fichiers)
+[Télécharger les documents](https://github.com/emlyon/makers-game/tree/master/fichiers)
 & les **découper à la laser** :  
 
 En **contre-plaqué de 10mm d’épaisseur**:
@@ -126,13 +126,14 @@ Démarrer votre Raspberry Pi avec un clavier, un câble ethernet relié à votre
 
 Une fois identifié, vous pouvez taper: `sudo raspi-config` pour configurer la langue du clavier ( en français: http://www.tropfacile.net/doku.php/raspberry-pi/comment-passer-votre-raspberry-en-francais )  
 Installez openFrameworks en suivant le guide suivant: [Getting your Raspberry Pi ready for openFrameworks](http://openframeworks.cc/setup/raspberrypi/raspberry-pi-getting-started/)  
+
 Une fois openFrameworks installé et testé, vous pouvez maintenant installer git sur votre pi. Pour ce faire :
 ```
 cd
 sudo apt update
 sudo apt install git
 ```
-Vérifier que vous avez la bonne version :
+Vérifier que vous avez bien installé git :
 
 ```
 git --version
