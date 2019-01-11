@@ -111,7 +111,7 @@ With the **3mm thickness PMMA**:
 ## Step 4 - Program the Raspberry Pi
 
 ### From here, two solutions are available to you:
-- Download and flash on the microSD the[final image] (put the link !) of the table with Etcher.io.
+- Download and flash on the microSD the [final image](https://mega.nz/#!o4VjVQBK!anL8pMjKyosJ1wq7HOHirDserNrnDiyaaCutvMq7loU) of the table with [Etcher.io](https://etcher.io/).
 - Take the time to configure the Raspberry to better understand how it works or to modify its behavior.
 
 **Install the Raspberry Pi system**:  
