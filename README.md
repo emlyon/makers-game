@@ -217,7 +217,7 @@ Player 1 - LEFT button: GPIO 10
 Player 1 - RIGHT button: GPIO 9  
 Player 1 - RESET button: GPIO 11  
 
-Player 2 - UP button: GPIO 4  
+Player 2 - UP button: GPIO 26  
 Player 2 - DOWN button: GPIO 17  
 Player 2 - LEFT button: GPIO 18  
 Player 2 - RIGHT button: GPIO 27  

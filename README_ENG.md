@@ -214,7 +214,7 @@ Player 1 - LEFT button: pin 10
 Player 1 - RIGHT button: pin 9  
 Player 1 - RESET button: pin 11  
 
-Player 2 - UP button: pin 4  
+Player 2 - UP button: pin 26  
 Player 2 - DOWN button: pin 17  
 Player 2 - LEFT button: pin 18  
 Player 2 - RIGHT button: pin 27  
